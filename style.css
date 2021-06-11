@@ -1,0 +1,48 @@
+.paralelepiped {
+	width: 100px;
+	height: 50px;
+	transform: skew(-20deg);
+    background-color: gray;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: gray;
+}
+.ellipse {
+    height: 50px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: gray;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	background: gray;
+}
+.rectangle {
+	width: 100px;
+	height: 50px;
+	background: gray;
+}
+
+.right_triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid grey;
+    border-right: 100px solid transparent;
+}
+.borders {
+    border: 1px solid gray;
+}
+.borders_d {
+    border-bottom: 1px dotted gray;
+}
+
+span {
+    width: 100px;
+}
+div div div div div {
+    border: 1px dotted gray;
+}
