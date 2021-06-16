@@ -90,3 +90,20 @@ function right_triangle() {
     document.getElementById("right_triangle_cut_c").value = 90 + "°";
     document.getElementById("right_triangle_h").value = ((a * b) / c).toFixed(3);
 }
+
+function Momental() {
+    start();
+    const inputs_arr = document.getElementsByTagName('input');
+    checkBox = document.getElementById("momental");
+
+    if (checkBox.checked) {
+        for (i = 0; i < inputs_arr.length; i++) {
+            inputs_arr[i].setAttribute("onkeyup", "start()")
+        }
+    }
+    else {
+        for (i = 0; i < inputs_arr.length; i++) {
+            inputs_arr[i].setAttribute("onkeyup", "")
+        }
+    }
+}

@@ -28,7 +28,7 @@
                     <div class="col-md-12 fs-5 text-center borders_d mb-1">Паралелепіпед</div>
                     <div class="col-md-1">A:</div>
                     <div class="col-md-3"><input type="text" size="10px" id="paralelepiped_a" value="20"></div>
-                    <div class="col-md-1">B:</div>
+                    <div class=" col-md-1">B:</div>
                     <div class="col-md-3"><input type="text" size="10px" id="paralelepiped_b" value="35"></div>
                     <div class="col-md-1">Angle:</div>
                     <div class="col-md-3"><input type="text" size="10px" id="paralelepiped_angle" value="20"></div>
@@ -146,8 +146,12 @@
                 </div>
             </div>
         </div>
-        <div class="row p-0 m-0 col-md-8 d-flex justify-content-center">
-            <input type='submit' value='Обрахувати' onClick='start()' style="background-color: rgb(33, 214, 115); font-size: 20px; font-weight: bold;" />
+        <div class="row p-0 m-0 col-md-8" style="border: 1px 0px 0px 0px solid gray;">
+            <div class="col-md-9 p-0 m-0"> <input type='submit' value='Обрахувати' onClick='start()'
+                    style="background-color: rgb(33, 214, 115); font-size: 20px; font-weight: bold; width: 100%;" />
+            </div>
+            <div class="col-md-3 p-0 m-0 text-center"> Моментальні обрахунки <input type='checkbox' id='momental'
+                    onchange='Momental()'/></div>
         </div>
     </div>
 </body>
